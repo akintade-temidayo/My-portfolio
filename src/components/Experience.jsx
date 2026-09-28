@@ -9,14 +9,13 @@ const experiences = [
   {
     role: 'Operations/Sales Manager',
     org: 'AIESEC',
-    period: '2023 – Present',
+    period: '2024 – Present',
     color: 'bg-purple-50 text-purple-600',
     description: 'Managed day-to-day operations, coordinated team activities, and ensured smooth execution of organizational programs and initiatives.',
   },
   {
     role: 'Team Lead & Collaborator',
     org: 'Frontend Projects',
-    period: '2024 – 2025',
     color: 'bg-indigo-50 text-indigo-600',
     description: 'Led and collaborated on frontend projects including the Mentee mentorship dashboard, applying React and Tailwind CSS in a team environment.',
   },
