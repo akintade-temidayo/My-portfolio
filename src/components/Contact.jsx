@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { FiMail, FiMapPin, FiGithub, FiSend } from 'react-icons/fi';
+import { FiMail, FiGithub, FiSend } from 'react-icons/fi';
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -71,11 +72,11 @@ const Contact = () => {
 
               <div className="flex items-center gap-4">
                 <div className="w-11 h-11 bg-blue-50 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <FiMapPin className="text-[#2563EB]" size={18} />
+                  <FaPhoneAlt className="text-[#2563EB]" size={18} />
                 </div>
                 <div>
-                  <p className="text-xs text-gray-400 mb-0.5">Location</p>
-                  <p className="text-sm font-semibold text-gray-800">Ondo, Nigeria</p>
+                  <p className="text-xs text-gray-400 mb-0.5">Contact </p>
+                  <p className="text-sm font-semibold text-gray-800">+234806218170</p>
                 </div>
               </div>
             </div>

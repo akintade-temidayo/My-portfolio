@@ -20,7 +20,7 @@ return (
             <div className="w-72 h-80 rounded-2xl overflow-hidden border-4 border-white shadow-md">
             <img
                 src="/profile.jpg"
-                alt="Akintade Temitope"
+                alt="Akintade Temidayo"
                 className="w-full h-full object-cover"
             />
             </div>
@@ -29,7 +29,7 @@ return (
             <p className="text-xs text-gray-500">Based in</p>
             <div className="flex items-center gap-1 mt-0.5">
                 <FiMapPin size={13} className="text-[#2563EB]" />
-                <p className="text-sm font-semibold text-gray-800">Ondo, Nigeria</p>
+                <p className="text-sm font-semibold text-gray-800">Nigeria</p>
             </div>
             </div>
             {/* Decorative block */}
@@ -62,10 +62,6 @@ return (
             </div>
             </div>
             <div className="bg-white rounded-xl p-4 border border-gray-100 shadow-md">
-            <p className="text-xs text-gray-400 mb-1">Experience</p>
-            <p className="text-sm font-semibold text-gray-800">1 Year</p>
-            </div>
-            <div className="bg-white rounded-xl p-4 border border-gray-100 shadow-md">
             <p className="text-xs text-gray-400 mb-1">Specialization</p>
             <p className="text-sm font-semibold text-gray-800">Frontend Dev
                 <br />
@@ -84,8 +80,8 @@ return (
             <FiMail size={16} /> temidayoakintade56@gmail.com
             </a>
             <a href="https://github.com/akintade-temidayo" target="_blank" rel="noreferrer" className="rounded-full p-2 text-gray-500 hover:text-[#2563EB] hover:bg-gray-300 transition-colors">
-            <FiGithub size={20} />
-            </a>akintade-temidayo
+            <FiGithub size={20} />akintade-temidayo
+            </a>
         </div>
         </div>
 
