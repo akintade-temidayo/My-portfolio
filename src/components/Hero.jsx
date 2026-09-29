@@ -35,7 +35,7 @@ return (
             View Projects <FiArrowRight />
             </button>
             <a
-            href="/Akintade-resume.pdf"
+            href="/Akintade-Temidayo-resume).pdf"
             download
             className="flex items-center gap-2 border border-[#2563EB] text-[#2563EB] font-semibold px-6 py-3 rounded-lg hover:bg-blue-50 transition-all duration-200 w-full sm:w-auto justify-center"
             >
